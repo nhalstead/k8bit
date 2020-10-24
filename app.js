@@ -92,7 +92,7 @@ function App() {
         '<li class="w5 mv4">',
         '<div>',
         `<p class="white ttu tc b f5 lh-copy">${nodeName}</p>`,
-        `<div class="bg-dark-pink ba bw2 b--pink w4 h4 center">${renderNode(pods)}</div>`,
+        `<div class="bg-dark-pink ba bw2 b--pink w4 h4 center" style="width:12rem;height:12rem;">${renderNode(pods)}</div>`,
         '</div>',
         '</li>',
       ].join('')
